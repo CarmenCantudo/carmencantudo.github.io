@@ -9,13 +9,14 @@ body {
 }
 
 nav {
-  /*position: fixed;*/
+  position: fixed;
   z-index: 1;
   left: 0;
   right: 0;
   font-family: 'Prata', serif;
   font-size: 22px;
-
+  height: 70px;
+  background-color: white;
 }
 
 .row{
