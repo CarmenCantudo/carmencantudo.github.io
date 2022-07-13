@@ -71,8 +71,11 @@ h3 {
 
 .aboutme {
   color: #003170;
-
   line-height: 100%;
+}
+
+#ci-projects {
+  line-height: 25px;
 }
 
 .email{text-decoration: none; font-weight: normal; color: black;}
