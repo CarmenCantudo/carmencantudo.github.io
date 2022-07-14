@@ -166,6 +166,18 @@ p {
   text-align: right;
 }
 
+/* Projects */
+.ci-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  align-self: center;
+  height: 100%;
+  width: 700px;
+}
+
 img {
   max-width: 100%;
 }
