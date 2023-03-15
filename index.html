@@ -1,254 +1,437 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap-grid.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
 
     <!-- Style CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Prata&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8e0b0718bf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Prata&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Carmen Cantudo Moreno</title>
   </head>
   <body>
     <nav>
-        <ul class="navigation">
-            <li><a href="#hello">hello</a></li>
-            <li><a href="#work">work</a></li>
-            <li><a href="#aboutme">about me</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
+      <ul class="navigation">
+        <li><a href="index.html">hello</a></li>
+        <li><a href="#aboutme">about me</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="https://www.codu.co/CarmenCantudo" target="_blank">articles</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
     </nav>
 
     <header class="row no-gutters">
-        <!-- left column -->
-        <section class="col left-col" id="hello">
+      <!-- left column -->
+      <section class="col left-col" id="hello">
         <div class="top-container">
-            <h1>hello!</h1>
-            <p>I'm Carmen and this is my personal website.</p>
-            <p>I'm a front-end web developer<br>with a background in primary teaching.</p>
-            <p>You can check out my work here.</p>
+          <h1>hello!</h1>
+          <p>I'm Carmen and this is my personal website.</p>
+          <p>
+            I'm a Full Stack Software Developer<br />
+            and Networking and Systems Security Graduate<br />
+            with a background in primary teaching.
+          </p>
+          <p>Find out more here</p>
+          <br />
+          <p class="arrow bounce">
+            <a href="#aboutme"><i class="fa-solid fa-angles-down fa-2x"></i></a>
+          </p>
         </div>
-        </section>
+      </section>
 
-        <!-- right column -->
-        <section class="col right-col">
+      <!-- right column -->
+      <section class="col right-col">
         <div class="top-container">
-            <img class="imgcarmen" src="assets/img/Carmen.jpg" alt="Carmen">
+          <img class="imgcarmen" src="assets/img/Carmen.jpg" alt="Carmen" />
         </div>
-        </section>
+      </section>
     </header>
 
     <main class="container">
-        <!-- work -->
-        <section>
-            <h2 class="work" id="work">Work</h2>
-            <!-- first -->
-            <div class="row no-gutters work">
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/Mortgage-expenses.jpg" alt="Mortgage expenses">
-                </div>
-
-                <div class="col-1"></div>
-
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <h3>Mortgage expenses</h3>
-                      <p><b>Role:</b> Web Developer<br>
-                      <b>Timeline:</b> June-July 2017 - Balms Abogados<br>
-                      <b>Tools:</b> Bootstrap, Chrome DevTools, CodePen, Adobe Dreamweaver.
-                    </p>
-                    <a href="SpanishMortgages/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-            </div>
-
-                <div class="blank"></div>
-            <!-- second -->
-            <div class="row no-gutters work">
-                 <div class="col-xs-12 col-sm-12 col-md-5 text-right">
-                    <h3>Banco Popular</h3>
-                    <p>Period: August-September 2017 - Balms Abogados<br>
-                    </p>
-                    <a href="BancoPopular/en/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-
-                <div class="col-1"></div>
-
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/Reclama-tus-acciones.jpg" alt="Reclama tus acciones">
-                </div>
-            </div>
-            
-                <div class="blank"></div>
-            <!-- third -->
-            <div class="row no-gutters work">
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/Tramiuris.png" alt="Tramiuris">
-                </div>
-
-                <div class="col-1"></div>
-
-                 <div class="col-xs-12 col-sm-12 col-md-5">
-                    <h3>Tramiuris</h3>
-                    <p>Period: October-November 2017 - Balms Abogados<br>
-                    </p>
-                    <a href="Tramiuris/en/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-            </div>
-
-                <div class="blank"></div>
-            <!-- forth -->
-            <div class="row no-gutters work">
-                 <div class="col-xs-12 col-sm-12 col-md-5 text-right">
-                    <h3>Fers</h3>
-                    <p>Period: January-February 2018 - Balms Abogados<br>
-                    </p>
-                    <a href="Fers/en/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-
-                <div class="col-1"></div>
-
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/Fers.png" alt="Fers">
-
-                </div>
-            </div>
-            
-                <div class="blank"></div>
-            <!-- fifth -->
-            <div class="row no-gutters work">
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/Balms-advisory.png" alt="Balms Advisory">
-                </div>
-
-                <div class="col-1"></div>
-
-                 <div class="col-xs-12 col-sm-12 col-md-5">
-                    <h3>Balms Advisory</h3>
-                    <p>Period: February-April 2019 - Balms Abogados<br>
-                    </p>
-                    <a href="https://www.balmsadvisory.com/en/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-            </div>
-
-                <div class="blank"></div>
-            <!-- sixth -->
-            <div class="row no-gutters work">
-                 <div class="col-xs-12 col-sm-12 col-md-5 text-right">
-                    <h3>CUE</h3>
-                    <p>Period: February-April 2020 - Balms Abogados<br>
-                    </p>
-                    <a href="https://consumidoresunidos.es/" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-
-                <div class="col-1"></div>
-
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/CUE.png" alt="CUE">
-                </div>
-            </div>
-            
-                <div class="blank"></div>
-            <!-- seventh -->
-            <div class="row no-gutters work">
-                <div class="col-xs-12 col-sm-12 col-md-5">
-                    <img class="imgshadow" src="assets/img/youlldreamagain.png" alt="You'll dream again">
-                </div>
-
-                <div class="col-1"></div>
-
-                 <div class="col-xs-12 col-sm-12 col-md-5">
-                    <h3>You'll dream again</h3>
-                    <p>Period: May-June 2020 - Balms Abogados<br>
-                    </p>
-                    <a href="youll-dream-again/en" target="_blank">VISIT THE WEBSITE</a>
-                </div>
-            </div>
-            
-                <div class="blank"></div>
-            
-        </section>
-
-        <!-- about me -->
-        <section>
-            <h2 class="aboutme" id="aboutme">About me</h2>
-            <div class="row no-gutters">
-                <div class="col-12 text-justify">
-                    <p>Junior Software Developer studying a Diploma in Full stack Software Development from Code Institute.</p>
-                    <p>Proficient in HTML, CSS and JavaScript. I am extremely motivated to constantly develop my skills and grow professionally.</p>
-                    <p>I have a passion for new technologies and enjoy seeking new challenges.</p>
-                    <p>I like to code things from scratch and enjoy bringing ideas to life in the browser.</p>
-                    <br>
-                    <h3>Technical Skillset</h3>
-                    <p><b>Technologies:</b> HTML5, CSS3, JavaScript</p>
-                    <p><b>Frameworks:</b> Bootstrap</p>
-                    <p><b>Version Control:</b> Git, Github</p>
-                    <p><b>Graphical software:</b> Photoshop, Illustrator, InDesign</p>
-                    <br>
-                    <h3>Code Institute projects</h3>
-                    <div id="projects">
-                        <div class="ci-projects">
-                            <p><a href="https://github.com/CarmenCantudo/bookclub" target="_blank">Book Club</a> - A website for a book club. Part of the Code Institute Project 1.</p>
-                            <a class="project-img" href="https://carmencantudo.github.io/bookclub/" target="_blank">
-                                <img src="assets/img/bookclub.PNG" alt="bookclub">
-                            </a>
-                        </div>
-                        <div class="ci-projects">
-                            <p><a href="https://github.com/CarmenCantudo/rock-paper-scissors-lizard-spock" target="_blank">Rock, Paper, Scissors, Lizard, Spock</a> - Rock, Paper, Scissors, Lizard, Spock Game. Part of the Code Institute Project 2.</p>
-                            <a class="project-img" href="https://carmencantudo.github.io/rock-paper-scissors-lizard-spock" target="_blank">
-                                <img src="assets/img/rock-paper-scissors.PNG" alt="rock-paper-scissors-lizard-spock">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 blank"></div>
-            </div>
-        </section>
-
-        <!-- contact -->
-        <section>
-            <h2 class="contact" id="contact">Contact</h2>
+      <!-- about me -->
+      <section id="aboutme" class="mt-5 pt-5">
+        <h2 class="aboutme mt-4">About me</h2>
+        <div class="row no-gutters">
+          <div class="col-12 text-justify my-3">
+            <p>
+              Full-Stack Software Developer, currently studying a Diploma in
+              Full Stack Software Development from Code Institute, and just
+              finished a Diploma in Networking and Systems Security from CCT
+              College Dublin.
+            </p>
+            <p>
+              Proficient in HTML, CSS, JavaScript, Python and Django. I am
+              extremely motivated to constantly develop my skills and grow
+              professionally.
+            </p>
+            <p>
+              I have a passion for new technologies and enjoy seeking new
+              challenges.
+            </p>
+            <p>
+              I like to code things from scratch and enjoy bringing ideas to
+              life in the browser.
+            </p>
+          </div>
+        </div>
+        <div class="row no-gutters my-3">
+          <h3 class="my-3 col-12">Technical Skillset</h3>
+          <div class="col-6">
+            <ul>
+              <li>HTML5, CSS3, JavaScript, Python</li>
+              <li>Bootstrap, Materialize, Tailwind CSS, Jest, Flask, Django</li>
+              <li>Git, Github</li>
+              <li>Photoshop, Illustrator, InDesign, Balsamiq</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Troubleshooting, Networking, Remote Desktop</li>
+              <li>VLANs, Tunnels, and Trunks, TCP/ IP, Active Directory</li>
+              <li>Windows & Linux Operating Systems</li>
+              <li>CIDR / Subnet Masking, DNS and DHCP, IIS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row no-gutters my-5">
+          <h3 class="my-3 col-12">Code Institute projects</h3>
+          <div id="projects">
             <div class="row">
-                <div class="col">
-                    <p>Email: <a class="email" href="mailto:carmencantudo@gmail.com">carmencantudo@gmail.com</a></p>
-                    <p>Currently living in Ireland.
-                    Feel free to say hello!</p>
-
-                    <p><b>Dundalk, Co. Louth<br>
-                    Ireland</b>
-                    </p>
-                </div>
-                <div class="col">
-                  <img src="assets/img/contact1.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="assets/img/contact2.jpg" alt="">
-                </div>
+              <div class="col-6 ci-projects">
+                <p>
+                  <a
+                    href="https://github.com/CarmenCantudo/bookclub"
+                    target="_blank"
+                    >Book Club</a
+                  >
+                  - A website for a book club. Part of the Code Institute
+                  Project 1.
+                </p>
+                <a
+                  class="project-img"
+                  href="https://carmencantudo.github.io/bookclub/"
+                  target="_blank"
+                >
+                  <img src="assets/img/bookclub.png" alt="bookclub" />
+                </a>
+              </div>
+              <div class="col-6 ci-projects">
+                <p>
+                  <a
+                    href="https://github.com/CarmenCantudo/rock-paper-scissors-lizard-spock"
+                    target="_blank"
+                    >Rock, Paper, Scissors, Lizard, Spock</a
+                  >
+                  - Rock, Paper, Scissors, Lizard, Spock Game. Part of the Code
+                  Institute Project 2.
+                </p>
+                <a
+                  class="project-img"
+                  href="https://carmencantudo.github.io/rock-paper-scissors-lizard-spock"
+                  target="_blank"
+                >
+                  <img
+                    class="img-responsive mx-auto"
+                    src="assets/img/rock-paper-scissors.png"
+                    alt="rock-paper-scissors-lizard-spock"
+                  />
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-6 ci-projects">
+              <p>
+                <a
+                  href="https://github.com/CarmenCantudo/lost-dragon-quest"
+                  target="_blank"
+                  >Lost Dragon's Quest</a
+                >
+                - Adventure Game. Part of the Code Institute Project 3.
+              </p>
+              <a
+                class="project-img"
+                href="https://a-lost-dragons-quest.herokuapp.com/"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/lost-dragons-quest.png"
+                  alt="rock-paper-scissors-lizard-spock"
+                />
+              </a>
+            </div>
+            <div class="col-6 ci-projects">
+              <p>
+                <a
+                  href="https://github.com/CarmenCantudo/recipes"
+                  target="_blank"
+                  >Fill your belly, feed your soul!</a
+                >
+                - Recipe blog website. Part of the Code Institute Project 4.
+              </p>
+              <a
+                class="project-img"
+                href="https://fillyourbelly.herokuapp.com/"
+                target="_blank"
+              >
+                <img
+                  src="assets/img/fill-your-belly.png"
+                  alt="fill-your-belly"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- work -->
+      <section id="work" class="mt-5 pt-5">
+        <h2 class="work mt-4">Work</h2>
+        <!-- first -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5 my-3">
+            <img
+              class="imgshadow"
+              src="assets/img/Mortgage-expenses.jpg"
+              alt="Mortgage expenses"
+            />
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <h3>Mortgage expenses</h3>
+            <p>
+              <b>Timeline:</b> June-July 2017 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, Bootstrap.
+            </p>
+            <a href="SpanishMortgages/" target="_blank">VISIT THE WEBSITE</a>
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- second -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5 text-right">
+            <h3>Banco Popular</h3>
+            <p>
+              <b>Timeline:</b> August-September 2017 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="BancoPopular/en/" target="_blank">VISIT THE WEBSITE</a>
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img
+              class="imgshadow"
+              src="assets/img/Reclama-tus-acciones.jpg"
+              alt="Reclama tus acciones"
+            />
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- third -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img
+              class="imgshadow"
+              src="assets/img/Tramiuris.png"
+              alt="Tramiuris"
+            />
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <h3>Tramiuris</h3>
+            <p>
+              <b>Timeline:</b> October-November 2017 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="Tramiuris/en/" target="_blank">VISIT THE WEBSITE</a>
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- forth -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5 text-right">
+            <h3>Fers</h3>
+            <p>
+              <b>Timeline:</b> Period: January-February 2018 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="Fers/en/" target="_blank">VISIT THE WEBSITE</a>
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img class="imgshadow" src="assets/img/Fers.png" alt="Fers" />
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- fifth -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img
+              class="imgshadow"
+              src="assets/img/Balms-advisory.png"
+              alt="Balms Advisory"
+            />
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <h3>Balms Advisory</h3>
+            <p>
+              <b>Timeline:</b> February-April 2019 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="https://www.balmsadvisory.com/en/" target="_blank"
+              >VISIT THE WEBSITE</a
+            >
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- sixth -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5 text-right">
+            <h3>CUE</h3>
+            <p>
+              <b>Timeline:</b> February-April 2020 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="https://consumidoresunidos.es/" target="_blank"
+              >VISIT THE WEBSITE</a
+            >
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img class="imgshadow" src="assets/img/CUE.png" alt="CUE" />
+          </div>
+        </div>
+
+        <div class="blank"></div>
+        <!-- seventh -->
+        <div class="row no-gutters work">
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img
+              class="imgshadow"
+              src="assets/img/youlldreamagain.png"
+              alt="You'll dream again"
+            />
+          </div>
+
+          <div class="col-1"></div>
+
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <h3>You'll dream again</h3>
+            <p>
+              <b>Timeline:</b> May-June 2020 - Balms Abogados<br />
+              <b>Tools:</b> Html, Css, JavaScript Bootstrap.
+            </p>
+            <a href="youll-dream-again/en" target="_blank">VISIT THE WEBSITE</a>
+          </div>
+        </div>
+
+        <div class="blank"></div>
+      </section>
+
+      <!-- contact -->
+      <section>
+        <h2 class="contact" id="contact">Contact</h2>
+        <div class="row">
+          <div class="col">
+            <p>
+              Email:
+              <a class="email" href="mailto:carmencantudo@gmail.com"
+                >carmencantudo@gmail.com</a
+              >
+            </p>
+            <p>Currently living in Ireland. Feel free to say hello!</p>
+
+            <p>
+              <b
+                >Dundalk, Co. Louth<br />
+                Ireland</b
+              >
+            </p>
+          </div>
+          <div class="col">
+            <img src="assets/img/contact1.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img src="assets/img/contact2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
       <div class="container">
-         <div class="social-icons-container">
-          <a href="https://www.linkedin.com/in/carmen-cantudo-moreno/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://twitter.com/CarmenCantudo" class="social-icon" target="_blank"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://github.com/CarmenCantudo" class="social-icon" target="_blank"><i class="fab fa-github-square"></i></a>
-          <!-- <a href="#"><img src="img/facebook.svg" class="social-icon" alt=""></a>
-          <a href="#"><img src="img/pinterest.svg" class="social-icon" alt=""></a>
-          <a href="#"><img src="img/instagram.svg" class="social-icon" alt=""></a> -->
+        <div class="social-icons-container">
+          <a
+            href="https://www.linkedin.com/in/carmen-cantudo-moreno/"
+            class="social-icon"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://twitter.com/CarmenCantudo"
+            class="social-icon"
+            target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a
+            href="https://github.com/CarmenCantudo"
+            class="social-icon"
+            target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+          <a href="https://www.codu.co/CarmenCantudo"><i class="fa-solid fa-c social-icon"></i></a>
         </div>
-          <p>Designed by Carmen</p>
-  </div>
+      </div>
     </footer>
     <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/8e0b0718bf.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8e0b0718bf.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

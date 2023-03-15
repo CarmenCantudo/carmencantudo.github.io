@@ -24,6 +24,28 @@ nav {
     margin-right: 0px;
 
 }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce:hover {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .imgcarmen{
   width: 75%;
   box-shadow: 10px 10px 5px grey;
@@ -74,8 +96,13 @@ h3 {
   line-height: 100%;
 }
 
+li {
+  padding: 5px 0;
+}
+
 #ci-projects {
   line-height: 25px;
+  padding: 0;
 }
 
 .email{text-decoration: none; font-weight: normal; color: black;}
@@ -170,12 +197,6 @@ p {
 .ci-projects {
   display: flex;
   flex-direction: column;
-}
-
-.project-img {
-  align-self: center;
-  height: 100%;
-  width: 700px;
 }
 
 img {
