@@ -101,8 +101,9 @@ h3 {
 }
 
 .work {
-  color: #16736e;
+  color: #20c4bb;
 }
+
 .blank {
   padding: 5%;
 }
@@ -129,7 +130,7 @@ li {
 
 h4 {
   font-size: 32px;
-  color: #16736e;
+  color: #20c4bb;
   background-color: #75e3dd;
   display: inline-block;
   margin: 0;
@@ -138,7 +139,7 @@ h4 {
 
 a {
   letter-spacing: 2px;
-  color: #16736e;
+  color: #20c4bb;
   font-size: 18px;
   text-decoration: none;
   font-weight: bold;
@@ -178,7 +179,7 @@ p {
 }
 
 .right-col {
-  background-color: #75e3dd;
+  background-color: #A5D6D6;
 }
 
 .top-container {
@@ -187,7 +188,7 @@ p {
 }
 
 .work {
-  color: #16736e;
+  color: #20c4bb;
 }
 
 .work-img {
@@ -230,7 +231,7 @@ img {
 }
 
 footer {
-  background-color: #f4979c;
+  background-color: #A5D6D6;
   min-height: 220px;
   background-image: url(../img/socialmedia.svg);
   background-repeat: no-repeat;
